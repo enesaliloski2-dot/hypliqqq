@@ -2,7 +2,7 @@
 
 Independent crypto-card concept for users of the Hyperliquid ecosystem. Not affiliated with, endorsed by, or issued by Hyperliquid Labs or any card network; the name is used descriptively and every public surface carries that disclosure.
 
-Public site + customer accounts + wallet connections + administration, on Next.js 15 (App Router), Supabase (Auth + Postgres with Row Level Security), wagmi/viem (EVM wallets) and the Solana wallet adapter (Phantom). The NORYX identity has been removed from every route; database identifiers were deliberately left unchanged so existing accounts and data migrate untouched (the repo folder name is cosmetic).
+Public site + customer accounts + wallet connections + administration, on Next.js 15.5 (App Router; patched for CVE-2025-55182 / React2Shell, with React 19.2.8), Supabase (Auth + Postgres with Row Level Security), wagmi/viem (EVM wallets) and the Solana wallet adapter (Phantom). The NORYX identity has been removed from every route; database identifiers were deliberately left unchanged so existing accounts and data migrate untouched (the repo folder name is cosmetic).
 
 ## Brand and card artwork
 - `public/hyperliquid/cards/` — the supplied front/back renders with the Hyperliquid wordmark and the Visa mark removed (mask-aware fill + synthesized brushed grain, 4K source kept). They are labelled concept artwork on every surface.
