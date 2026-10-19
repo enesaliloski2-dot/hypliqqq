@@ -1,0 +1,178 @@
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="card-ico" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 10h18" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="clear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 3.5v17" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 3"/></symbol>
+  <symbol id="chain" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="exchange" viewBox="0 0 24 24"><path d="M4 8h14l-3-3M20 16H6l3 3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="tap" viewBox="0 0 24 24"><path d="M8.5 9a4.5 4.5 0 0 1 0 6M11.5 6.5a8 8 0 0 1 0 11M14.5 4a11.5 11.5 0 0 1 0 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</defs></svg>
+
+<header class="nav" id="nav" data-open="false">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="Hyperliquid Card home"><i aria-hidden="true"></i>Hyperliquid Card <small>Independent concept</small></a>
+    <nav class="nav-links" aria-label="Primary"><a href="#card">Card</a><a href="#benefits">Benefits</a><a href="#how">How It Works</a><a href="#ecosystem">Ecosystem</a><a href="#faq">FAQ</a></nav>
+    <div class="nav-right">
+      <a class="nav-auth" href="/login" data-app="login">Log In</a>
+      <a class="btn btn-primary btn-sm" href="/signup" data-app="signup">Create Account</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMobile" aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+  <nav class="nav-mobile" id="navMobile" aria-label="Mobile"><a href="#card">Card</a><a href="#benefits">Benefits</a><a href="#how">How It Works</a><a href="#ecosystem">Ecosystem</a><a href="#faq">FAQ</a><a href="/login" data-app="login">Log In</a><a href="/signup" data-app="signup">Create Account</a></nav>
+</header>
+
+<main id="top">
+<!-- 1. HERO -->
+<section class="hero" aria-labelledby="hero-h">
+  <div class="wrap hero-grid">
+    <span class="label">Independent card concept · Hyperliquid ecosystem</span>
+    <h1 class="h1" id="hero-h">Your crypto.<br>In motion.</h1>
+    <p class="sub">Explore a new vision for connecting digital assets with everyday spending.</p>
+    <div class="visual enter" id="heroEnter">
+      <div class="glow" aria-hidden="true"></div>
+      <div class="float"><div class="spin-stage"><div class="spin" role="img" aria-label="The card concept, front and back, rotating slowly"><div class="face front"></div><div class="face back"></div></div></div></div>
+    </div>
+    <div class="ctas">
+      <a class="btn btn-primary" href="#card">Explore the Card <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      <a class="btn btn-secondary" href="/signup" data-app="signup">Join Early Access</a>
+    </div>
+    <p class="fine note">Concept product, not yet issued. Independently developed; not affiliated with or endorsed by Hyperliquid Labs or any card network.</p>
+  </div>
+</section>
+
+<!-- 2. BENEFITS -->
+<section id="benefits" aria-labelledby="why-h">
+  <div class="wrap">
+    <div class="head center reveal"><span class="label">Why this card</span><h2 class="h2" id="why-h">Liquid by design.</h2><p class="sub">Three ideas the proposed experience is built around.</p></div>
+    <div class="feats reveal">
+      <div class="feat"><div class="ico"><svg aria-hidden="true"><use href="#card-ico"/></svg></div><h3 class="h3">Spend from your wallet</h3><p>A simpler vision for turning eligible digital assets into everyday purchases, without the exchange-withdrawal detour.</p></div>
+      <div class="feat"><div class="ico"><svg aria-hidden="true"><use href="#clear"/></svg></div><h3 class="h3">Transparent by design</h3><p>Costs, rates and status shown before you confirm. Nothing hidden in a spread you never see.</p></div>
+      <div class="feat"><div class="ico"><svg aria-hidden="true"><use href="#chain"/></svg></div><h3 class="h3">Built for the onchain world</h3><p>Designed for people who already live in self-custodied wallets and onchain markets.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. CARD SHOWCASE -->
+<section class="showcase" id="card" aria-labelledby="card-h">
+  <div class="wrap">
+    <div class="head center reveal"><span class="label">The card</span><h2 class="h2" id="card-h">The card.<br>Reimagined.</h2><p class="sub">Brushed dark-teal metal, a holographic stripe, and an engraved field of the assets it's meant to carry.</p></div>
+    <div class="viewer reveal">
+      <div class="frame"><div class="float"><div class="ncard tilt" id="showCard" role="img" aria-label="Card concept, front side"><div class="side front on" id="imgFront"></div><div class="side back" id="imgBack"></div></div></div></div>
+      <div class="viewer-ctl"><div class="seg" role="group" aria-label="Card side"><button type="button" data-side="front" aria-pressed="true">Front</button><button type="button" data-side="back" aria-pressed="false">Back</button></div></div>
+      <div class="tags"><span>Brushed metal</span><span>Holographic stripe</span><span>Concept design</span></div>
+      <p class="fine" style="text-align:center;margin-top:18px">Conceptual design artwork. Cardholder details are demonstration content; no issuer or network is attached to this card.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. HOW IT WORKS -->
+<section id="how" aria-labelledby="how-h">
+  <div class="wrap">
+    <div class="head center reveal"><span class="label">The proposed experience</span><h2 class="h2" id="how-h">Connect. Convert. Spend.</h2></div>
+    <div class="steps reveal">
+      <div class="step"><div class="n">01</div><div class="ico"><svg aria-hidden="true"><use href="#chain"/></svg></div><h3 class="h3">Connect</h3><p>Connect a supported self-custodied wallet. Read-only; you stay in control.</p><span class="st">Available in your account</span></div>
+      <div class="step"><div class="n">02</div><div class="ico"><svg aria-hidden="true"><use href="#exchange"/></svg></div><h3 class="h3">Convert</h3><p>Eligible assets settle into spendable funds through an authorized provider, estimate first.</p><span class="st">Planned</span></div>
+      <div class="step"><div class="n">03</div><div class="ico"><svg aria-hidden="true"><use href="#tap"/></svg></div><h3 class="h3">Spend</h3><p>Use the card where supported, once an issuer and your region are confirmed.</p><span class="st">Planned</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. ECOSYSTEM + PROPOSED SPEC + FOUNDING -->
+<section id="ecosystem" aria-labelledby="eco-h">
+  <div class="wrap">
+    <div class="head reveal"><span class="label">Ecosystem context</span><h2 class="h2" id="eco-h">Built around onchain innovation.</h2><p class="sub">Characteristics of the Hyperliquid ecosystem this concept is designed for. They describe the ecosystem, not features of this card.</p></div>
+    <div class="eco reveal">
+      <div><h3>HyperCore</h3><p>Fully onchain spot and perpetual order books.</p></div>
+      <div><h3>HyperEVM</h3><p>An EVM-compatible environment for decentralized applications.</p></div>
+      <div><h3>Wallet connectivity</h3><p>Works with supported Web3 wallets under user-approved connections.</p></div>
+      <div><h3>Transparent markets</h3><p>Onchain trading architecture with publicly documented fees.</p></div>
+      <div><h3>HYPE</h3><p>Native token functionality, with staking-based fee discounts where applicable.</p></div>
+    </div>
+    <div class="spec reveal">
+      <div><h3 class="h3">Proposed product specification</h3><p class="fine" style="margin-top:8px">Intended requirements, not verified operational facts. Each item depends on an authorized issuer, a card-network relationship, a published fee schedule, supported countries and identity requirements. Nothing is charged, credited or promised until those exist.</p></div>
+      <dl>
+        <div><dt>Card price</dt><dd>$5 <small>proposed, one-time issuance</small></dd></div>
+        <div><dt>Welcome incentive</dt><dd>30 USDT <small>proposed, eligibility-based</small></dd></div>
+        <div><dt>Founding promotion</dt><dd>5,000 USDT <small>proposed, up to 1,000 qualifying customers</small></dd></div>
+        <div><dt>Fees</dt><dd>Minimal, disclosed before confirmation <small>conversion spread and network costs may apply</small></dd></div>
+        <div><dt>Onboarding</dt><dd>As streamlined as the issuer and law permit <small>identity checks where required</small></dd></div>
+        <div><dt>Status</dt><dd class="mint">Concept · not issued</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="founding" id="founding" aria-labelledby="found-h">
+  <div class="wrap">
+    <div class="panel reveal">
+      <div class="copy">
+        <span class="label">Founding member program</span>
+        <h2 class="h2" id="found-h">The first 1,000.<br>A liquid beginning.</h2>
+        <p class="sub">A proposed 5,000 USDT founding reward for up to 1,000 qualifying customers, alongside a proposed 30 USDT welcome credit.</p>
+        <span class="status"><i></i>Planned · not funded · not active</span>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+          <a class="btn btn-primary" href="/signup?next=%2Fdashboard%3Ffounding%3D1" data-app="founding">Register interest <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+          <button type="button" class="btn btn-secondary" id="foundingMore" aria-expanded="false" aria-controls="foundingDetails">Program details</button>
+        </div>
+      </div>
+      <div class="amount"><div class="big"><em>5,000</em> USDT</div><div class="small">Proposed · per qualifying customer</div></div>
+      <div class="f-details" id="foundingDetails" hidden>
+        <dl>
+          <div><dt>Participation</dt><dd>Registered account holders can record interest. Registration creates no balance and no entitlement; it places you in a queue for eligibility review when the program is funded.</dd></div>
+          <div><dt>Eligibility</dt><dd>A verified account, a successfully issued card, completion of any required identity checks, one registration per person, and anti-abuse screening. Defined in the official terms.</dd></div>
+          <div><dt>Geographic restrictions</dt><dd>Limited to regions supported by the issuer. Residents of restricted regions are not eligible.</dd></div>
+          <div><dt>How the 1,000 are chosen</dt><dd>By the order in which qualifying customers complete all criteria, as recorded by the platform.</dd></div>
+          <div><dt>Funding status</dt><dd>Planned. No budget approved, no payout system connected. No reward can be claimed today.</dd></div>
+          <div><dt>Payment</dt><dd>Reward currency, timing, tax responsibility and disputes will be set in the official terms. Rewards are only ever recorded through a backend crediting process, never from the interface.</dd></div>
+          <div><dt>Official terms</dt><dd><a href="#promo-terms">Terms summary</a>. Full terms will be published before the program opens.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. FINAL CTA + FAQ -->
+<section class="final" id="access" aria-labelledby="final-h">
+  <div class="halo" aria-hidden="true"></div>
+  <div class="wrap">
+    <h2 class="h2 reveal" id="final-h">Your crypto. Your freedom.</h2>
+    <p class="sub reveal" style="text-align:center">Create an account to explore the early-access experience, or leave your email and we'll write when the card opens in your region.</p>
+    <div class="reveal" style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center"><a class="btn btn-primary" href="/signup" data-app="signup">Create Account <svg aria-hidden="true"><use href="#arrow"/></svg></a><a class="btn btn-secondary" href="/login" data-app="login">Log In</a></div>
+    <form class="wl reveal" id="wlForm" novalidate data-state="idle">
+      <label class="sr-only" for="wlEmail">Email address</label>
+      <div class="field"><input type="email" id="wlEmail" name="email" placeholder="Enter your email" autocomplete="email" inputmode="email" required><button type="submit" class="btn btn-primary" id="wlSubmit">Join Early Access <svg aria-hidden="true"><use href="#arrow"/></svg></button></div>
+      <label class="hp" aria-hidden="true">Leave empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+      <label class="consent"><input type="checkbox" id="wlConsent" name="consent"><span>I'd like early-access updates and accept the <a href="#privacy">Privacy Policy</a>. Joining does not create an account, issue a card, or confer reward eligibility.</span></label>
+      <div class="err" id="wlErr" role="alert" aria-live="polite"></div>
+    </form>
+    <div class="wl-done" id="wlDone" data-state="idle" aria-live="polite"><h3>You're on the early-access list.</h3><p>We'll email you when the card opens in your region. Nothing else happens yet: no account, no card, no reward eligibility until official terms are published.</p></div>
+    <div class="faq" id="faq">
+      <h2>Essential questions</h2>
+      <details><summary>Is this an official Hyperliquid or Visa card?<span class="pm" aria-hidden="true"></span></summary><div class="ans">No. Hyperliquid Card is an independently developed concept designed for users of the Hyperliquid ecosystem. It is not affiliated with, endorsed by, or issued by Hyperliquid Labs or any card network. "Hyperliquid" is used only to describe the ecosystem the concept targets.</div></details>
+      <details><summary>Can I get the card today?<span class="pm" aria-hidden="true"></span></summary><div class="ans">Not yet. No issuer or network relationship exists, so no card is issued and nothing is charged. Creating an account gives you the early-access dashboard, wallet connection and status updates.</div></details>
+      <details><summary>How will the card work?<span class="pm" aria-hidden="true"></span></summary><div class="ans">The intended flow: connect a supported self-custodied wallet, choose which eligible asset settles a purchase, and pay at supported merchants with conversion handled by an authorized provider, estimate first. Connection is live in your account; conversion and spending are planned.</div></details>
+      <details><summary>What will it cost, and will I need to verify my identity?<span class="pm" aria-hidden="true"></span></summary><div class="ans">The proposed price is $5 for issuance with minimal, disclosed fees; the actual schedule, any conversion spread and network costs will be published with the issuer. Identity verification applies wherever law or the issuer requires it; we don't advertise otherwise.</div></details>
+      <details><summary>Are the 30 USDT and 5,000 USDT rewards real?<span class="pm" aria-hidden="true"></span></summary><div class="ans">They are proposed programs, not active offers. Neither is funded, and no reward is credited to any account until a backend crediting process and published terms exist. Registering interest records you for eligibility review only.</div></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer id="legal">
+  <div class="wrap">
+    <div class="foot">
+      <div class="brandcol"><span class="brand"><i aria-hidden="true"></i>Hyperliquid Card</span><p>An independent crypto-card concept designed for users of the Hyperliquid ecosystem. Not affiliated with, endorsed by, or issued by Hyperliquid Labs or any card network. No card is currently issued.</p></div>
+      <nav aria-label="Legal"><a href="#privacy">Privacy Policy</a><a href="#terms">Terms</a><a href="#fees">Fee Information</a><a href="#risk">Risk Disclosures</a><a href="#promo-terms">Promotion Terms</a><a href="mailto:hello@example.com">Contact</a></nav>
+    </div>
+    <div class="disclosures">
+      <details id="privacy"><summary>Privacy Policy (summary)</summary><p>Early-access signups store your email, consent and its timestamp, used only for availability updates. Accounts store your name, email, and the public addresses of wallets you connect. Unsubscribe or request deletion at any time.</p></details>
+      <details id="terms"><summary>Terms (summary)</summary><p>This site presents a concept. Nothing here is an offer of a card, an account with a financial institution, or financial services. Trademarks belong to their owners; their use here is descriptive only. Cardholder terms will be published with an issuer if and when one is engaged.</p></details>
+      <details id="fees"><summary>Fee Information</summary><p>Proposed: $5 issuance, minimal card fees. Conversion spreads, network and provider costs may apply and will be displayed before confirmation. A complete fee schedule will be published before launch.</p></details>
+      <details id="risk"><summary>Risk Disclosures</summary><p>Cryptocurrency values are volatile. Digital assets are not bank deposits and may not be covered by any deposit insurance scheme. No claim of regulatory approval, licensing or asset insurance is made.</p></details>
+      <details id="promo-terms"><summary>Promotion Terms (Founding Member Program)</summary><p>The proposed 30 USDT welcome credit and 5,000 USDT founding reward for up to 1,000 qualifying customers are not funded, authorized or active. Official terms will define eligibility, regions, age and identity requirements, selection, whether a purchase is required, payout timing and currency, tax responsibility, duplicate-account controls and disputes. Rewards are recorded only by a backend crediting process; no interface state creates a balance.</p></details>
+    </div>
+    <div class="copy"><span>© 2026 Hyperliquid Card concept. Card artwork is conceptual; cardholder details are demonstration content.</span><span>Independent concept · v7</span></div>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
